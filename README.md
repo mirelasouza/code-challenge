@@ -16,8 +16,9 @@ The app is almost finished, and the couriers are already able to manage the orde
 
 Regarding the infrastructure on our cloud that will receive all this data, we are really delayed, and it is exactly where we need your help, to help us answering these questions:
 
-How are we going to receive all the location data from the couriers' app? What protocols, services, components we are going to use to proper receive the data, store it and be available to be used in other products.
+## Answares 
+Q: How are we going to receive all the location data from the couriers' app? What protocols, services, components we are going to use to proper receive the data, store it and be available to be used in other products.
 
-# Answare: 
+A: 
 Is very important to create some components inside AWS to handle ‘moved’ data as location for each order requested. If need to handle datas that are changing and these infos are needed to design the business model effectively it will be necessary take a look to those component offered by AWS. 
 For sensitive data as in architecture Pub/Sub AWS offers the SNS (Simple Notification Service) and SQS (Simple Queue Service) that works properly with messages without losing any info and still ensuring the quality no need a 3rd part system. 

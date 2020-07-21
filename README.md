@@ -16,7 +16,7 @@ The app is almost finished, and the couriers are already able to manage the orde
 
 Regarding the infrastructure on our cloud that will receive all this data, we are really delayed, and it is exactly where we need your help, to help us answering these questions:
 
-## Answares 
+### Answers 
 Q: How are we going to receive all the location data from the couriers' app? What protocols, services, components we are going to use to proper receive the data, store it and be available to be used in other products.
 
 A: 

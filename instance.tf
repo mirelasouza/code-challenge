@@ -3,8 +3,8 @@ email: irelanatali@gmail.com
 */
 
 provider "aws" {
-	access_key = "AKIAZMNKLDGVHSPZ6F2U"
-	secret_key = "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"
+	access_key = ""
+	secret_key = ""
 	region = "sa-east-1"
 }
 
